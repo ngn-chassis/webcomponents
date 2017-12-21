@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+:host *,
+:host *:before,
+:host *:after {
+  box-sizing: border-box;
+}

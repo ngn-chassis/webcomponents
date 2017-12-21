@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+:host {
+  contain: content;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+:host *,
+:host *:before,
+:host *:after {
+  box-sizing: border-box;
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+:host {
+  display: flex;
+  contain: layout style;
+  max-width: 100%;
+}
+
+:host *,
+:host *:before,
+:host *:after {
+  box-sizing: border-box;
+}
+
+:host .hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+:host([type="field"]) {
+  flex-direction: column;
+}
+
+:host([type="toggle"]) {
+  align-items: center;
+}
+
+:host([type="toggle"]) .label-wrapper {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+:host([type="toggle"]) .label-wrapper {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+:host([type="toggle"]) .input-wrapper {
+  order: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:host([type="select"]) {
+  flex-direction: column;
+}
